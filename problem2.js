@@ -19,7 +19,7 @@
         b = 0,
         temp;
 
-    while (b < max) {
+    while (b <= max) {
       temp = a;
       a = a + b;
       b = temp;
