@@ -17,6 +17,7 @@
 
   // console.log(primeFactor());
 
+  // generate an array of primes using a prime sieve
   function genPrimes(n){
     let primes = new Uint32Array(n+1);
     primes.fill(1)
@@ -46,9 +47,6 @@
   }
 
   const primes = genPrimes(15487457);
-  // console.log(primeFactor(35, primes));
-  // console.log(primeFactor(13195, primes));
   console.log(primeFactor(600851475143, primes));
-  // console.log(primeFactor(30974914,primes));
 
 })()
