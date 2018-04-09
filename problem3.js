@@ -18,34 +18,34 @@
   
   // generate an array of primes using a prime sieve
   function genPrimes(n){
-    let primes = new Uint32Array(n+1);
+    let primes = new Uint32Array(n+1)
     primes.fill(1)
     for (let i = 2; i < Math.sqrt(n); i++){
       if (primes[i]) {
-        for (let j = 2*i; j < n; j+=i){
-          primes[j] = 0;
+        for (let j = 2 * i; j < n; j += i){
+          primes[j] = 0
         }
       }
     }
     let primeVals = []
     for (let i = 2; i < primes.length; i++){
       if (primes[i]) {
-        primeVals.push(i);
+        primeVals.push(i)
       }
     }
-    return primeVals;
+    return primeVals
   }
       
   function primeFactor(x, primes){
     const c = x < primes.length ? x : primes.length
     for (let i = c; i > 1; i--) {
       if(x % primes[i] == 0){
-        return primes[i];
+        return primes[i]
       }
     }
   }
 
-  const primes = genPrimes(15487457);
-  console.log(primeFactor(600851475143, primes));
+  const primes = genPrimes(15487457)
+  console.log(primeFactor(600851475143, primes))
 
 })()
