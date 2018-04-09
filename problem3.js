@@ -2,7 +2,6 @@
 // Problem 3
 
 // The prime factors of 13195 are 5, 7, 13 and 29.
-
 // What is the largest prime factor of the number 600851475143 ?
 
 /* Full disclosure; this isn't my solution. I worked on my own
@@ -15,8 +14,8 @@
 
 (function iife() {
 
-  // console.log(primeFactor());
-
+  console.log('Problem 3')
+  
   // generate an array of primes using a prime sieve
   function genPrimes(n){
     let primes = new Uint32Array(n+1);
