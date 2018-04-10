@@ -21,6 +21,7 @@
 (function iife() {
   
   console.log('Problem 5')
+  const neededNumbers = [11, 13, 14, 16, 17, 18, 19, 20]
 
   function findSolution() {
     for (var i = 2520; i <= Number.MAX_SAFE_INTEGER; i += 2520) {
