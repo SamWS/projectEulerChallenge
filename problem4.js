@@ -28,6 +28,8 @@
       return largestPalindrome
     }
 
-    console.log(calculateLargestPalindrome())
+    console.log('Largest palindrome product:', calculateLargestPalindrome())
 
 })()
+
+// Answer: 906609

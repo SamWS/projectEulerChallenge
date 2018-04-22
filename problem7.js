@@ -31,6 +31,8 @@
     return prime
   }
 
-  console.log(specificPrime(10001))
+  console.log('1001st prime:', specificPrime(10001))
 
 })()
+
+// Answer: 104743

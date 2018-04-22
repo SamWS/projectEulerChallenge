@@ -31,6 +31,8 @@
     }
   }
 
-  console.log(findSolution())
+  console.log('Smallest multiple:', findSolution())
 
 })()
+
+// Answer: 232792560

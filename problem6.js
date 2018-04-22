@@ -32,6 +32,8 @@
 
     const difference = squareSum(100) - sumSquares(100)
     
-    console.log(difference)
+    console.log('Sum square difference:', difference)
 
 })()
+
+// Answer: 25164150

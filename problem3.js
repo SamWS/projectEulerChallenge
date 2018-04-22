@@ -46,6 +46,8 @@
   }
 
   const primes = genPrimes(15487457)
-  console.log(primeFactor(600851475143, primes))
+  console.log('Largest prime factor:', primeFactor(600851475143, primes))
 
 })()
+
+// Answer: 6857

@@ -30,7 +30,7 @@
     return evenNums.reduce((a, b) => a + b);
   }
 
-  console.log(evenFibNums())
+  console.log('Even Fibonacci numbers:', evenFibNums())
 
 })()
 

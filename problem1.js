@@ -19,7 +19,7 @@
         })
     }
 
-    console.log(multiplesOf3And5(1000))
+    console.log('Multiples of 3 and 5:', multiplesOf3And5(1000))
 
 })()
 
